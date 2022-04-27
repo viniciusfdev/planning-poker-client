@@ -21,7 +21,7 @@
     "no-console": 0,
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
-    "prettier/prettier": 2,
+    "prettier/prettier": 0,
     "react/react-in-jsx-scope": "off"
   },
   "settings": {

@@ -25,10 +25,16 @@
     "test:dev": "jest --watchAll"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.6.2",
     "dotenv": "^10.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0"
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.0",
+    "socket.io": "^4.4.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -38,6 +44,8 @@
     "@types/node": "^16.11.19",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/socket.io": "^3.0.2",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
     "eslint": "^8.6.0",
@@ -68,5 +76,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "resolutions": {
+    "react-scripts/eslint-webpack-plugin": "2.3.0"
   }
 }
